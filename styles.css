@@ -13,6 +13,39 @@ h1{
   text-align: center;
 }
 
+/*BUTTONS
+=================================================*/
+.btn{
+  text-decoration: none;
+  color: #000;
+  padding: 1em 2em;
+  border: #000 solid;
+  border-width: 2px;
+}
+
+.btn-rounded{
+  background-color: #00B6F1;
+  border: none;
+  color: white;
+  padding: 1.5em 4em;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1em;
+  margin: 2em 1em;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-rounded:hover{
+  background-color: #FFF;
+  color: #000;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  transition: 0.5s;
+}
+
 /*NAVIGATION
 =================================================*/
 .header{
@@ -27,15 +60,10 @@ h1{
 
 .logo{
   position: absolute;
+  float: left;
   right: 0;
-  left: 0;
-  max-height: 4em;
-  margin-bottom: 25em;
-}
-
-nav{
-  text-decoration: none;
-  color: #FFF;
+  left: 20em;
+  max-height: 3em;
 }
 
 nav ul {
@@ -52,40 +80,40 @@ nav li {
 nav a {
   text-decoration: none;
   color: #FFF;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 600;
   padding: 0.5em;
 }
 
-/*---------------------------------------------*/
+/*HOME HERO
+=================================================*/
 
 .main-hero{
   background-image: url('img/hero.png');
   background-size: cover;
   background-position: center;
-  padding: 30em 0;
+  padding: 10em 0;
   text-align: center;
 }
 
-.main-hero p {
-  position: absolute;
-  color: #FFF;
-  right: 0;
-  left: 0;
-  font-size: 2.5em;
-  margin-top: 7.5em;
+.title{
+  align-self: center;
+  max-height: 25em;
+  margin: 5em 5em;
 }
 
-.btn{
-  text-decoration: none;
-  color: #000;
-  padding: 1em 2em;
-  border: #000 solid;
-  border-width: 2px;
-}
-
+/*HOME ABOUT
+=================================================*/
 .home-about{
   background-color: #000;
   color: #FFF;
+  padding: 20em;
+}
+
+/*HOME EVENTS
+=================================================*/
+.home-events{
+  background-color: #020;
+  color: #FF0;
   padding: 20em;
 }
